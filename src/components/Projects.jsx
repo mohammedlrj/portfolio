@@ -7,11 +7,10 @@ const Projects = () => (
         <div className="absolute z-[0] w-[22%] h-[22%] -right-[25%] rounded-full blue__gradient top-[-14%]"/>
 
         <div className="mx-auto max-w-screen-sm px-4 z-50">
-            <h2 className={`${styles.heading2Center}`}>Wondering About My Recent Projects ?</h2>
+            <h2 className={`${styles.heading2Center}`}>Explore My Recent Projects</h2>
             <p className={`${styles.paragraphCenter}`}>
-                Discover my latest projects I've been involved in, uncovering the innovative solutions they introduce.
-                From conceptualization to execution, explore how these projects have pushed boundaries and created
-                value.
+            Discover the innovative solutions in my latest work. From concept to execution, 
+            these projects showcase my ability to deliver value and tackle complex challenges.
             </p>
         </div>
 
