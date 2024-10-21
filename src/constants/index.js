@@ -305,7 +305,7 @@ export const projects = [
     content:
       "SRMP is a medical recommendation web application designed to help users find and recommend doctors based on specific symptoms and locations. Developed using Python and Django, the platform features a user-centered search functionality that generates relevant doctor recommendations based on user input. Additionally, a doctor registration system allows healthcare professionals to register on the platform by submitting their contact details, ensuring they can be easily found in search results. This comprehensive solution emphasizes both front-end usability and back-end efficiency to deliver an effective healthcare resource.",
     img: "srmp.png",
-    technologies: [13, 14, 0, 1, 2, 21],
+    technologies: [14, 15, 0, 1, 2, 22],
     href: "https://github.com/mohammedlrj/SRMP",
   },
   {
@@ -314,7 +314,7 @@ export const projects = [
     content:
       "This project is a comprehensive programming Q&A web application designed to assist users with their programming tasks. Built using Python and Django, the platform enables users to ask programming-related questions while offering automatic code generation and correction for enhanced functionality. A personal database is implemented to track user activity, ensuring that users have easy access to their interaction history. Additionally, the application supports multiple programming languages, providing a diverse range of solutions tailored to meet users' coding needs.",
     img: "cfai.jpg",
-    technologies: [13, 14, 0, 1, 2, 21],
+    technologies: [14, 15, 0, 1, 2, 22],
     href: "https://github.com/mohammedlrj/CFAI",
   },
   {
@@ -332,7 +332,7 @@ export const projects = [
     content:
       "This project is a CRUD application designed to enable administrators to perform essential operations create, read, update, and delete on data. Developed using Spring Boot for the back end and React.js for the front end, the application provides a simple interface for managing data efficiently. This project allowed me to apply my foundational knowledge of Spring Boot while gaining hands-on experience with React.js, enhancing my understanding of web application architecture and the integration between front-end and back-end technologies.",
     img: "crud.png",
-    technologies: [17, 15, 8, 0, 1, 2, 19],
+    technologies: [18, 16, 8, 0, 1, 2, 20],
     href: "https://github.com/mohammedlrj/CRUD-Spring-ReactJS",
   },
   {
@@ -341,7 +341,7 @@ export const projects = [
     content:
       "WorldCoast is a comprehensive travel agency website designed to enhance the user experience in flight searching and booking. Featuring a dynamic flight availability tool, the site allows users to easily search for and view available flights based on their selected travel dates. With a focus on responsive design, WorldCoast ensures seamless access across all devices, providing travelers with an intuitive and efficient platform for their travel needs.",
     img: "worldcoast.png",
-    technologies: [0, 1, 2, 18, 19],
+    technologies: [0, 1, 2, 19, 20],
     href: "https://github.com/mohammedlrj/TravelAgency",
   },
 ];
