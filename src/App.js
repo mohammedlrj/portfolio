@@ -1,5 +1,5 @@
 import styles from "./style";
-import { About, Skills, Experiences, Contact, Navbar, Projects, Hero , Docs } from "./components";
+import { About, Skills, Experiences, Contact, Navbar, Projects, Hero } from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
