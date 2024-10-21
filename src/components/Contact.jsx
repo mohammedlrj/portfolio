@@ -22,7 +22,11 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.send('service_4deiwyn', 'template_u5mlm8u', emailData, 'qTH9zjVceHXb7d7ej')
+        emailjs.send(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
+            emailData, 
+            process.env.REACT_APP_EMAILJS_USER_ID)
             .then((result) => {
                 console.log('E-mail envoyé avec succès', result.text);
                 setEmailData({
