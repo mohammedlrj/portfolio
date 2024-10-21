@@ -8,6 +8,7 @@ import {
   chartjs,
   ngx,
   react,
+  emailjs,
   angular,
   csharp,
   dotnet,
@@ -268,6 +269,7 @@ export const skills = [
   { icon: chartjs, tooltip: "Chart JS" },
   { icon: ngx, tooltip: "ngx-Translate" },
   { icon: react, tooltip: "React Js" },
+  { icon: emailjs, tooltip: "EmailJS" },
   { icon: angular, tooltip: "Angular" },
   { icon: csharp, tooltip: "C#" },
   { icon: dotnet, tooltip: "Dot Net" },
@@ -314,6 +316,15 @@ export const projects = [
     img: "cfai.jpg",
     technologies: [13, 14, 0, 1, 2, 21],
     href: "https://github.com/mohammedlrj/CFAI",
+  },
+  {
+    name: "Portfolio - My Digital Showcase",
+    duration: "1 month",
+    content:
+      "This project is a personal portfolio website built to showcase my full-stack development skills, education, projects and more. Developed using React.js for a dynamic user interface, Tailwind CSS for responsive and modern design, and EmailJS for seamless contact form integration, this portfolio highlights my expertise across various domains. The site includes sections for about me, experiences, skills, projects and a contact form, making it easy for potential employers and collaborators to explore my work and get in touch.",
+    img: "portfolio.png",
+    technologies: [8, 4, 9, 0, 1, 2],
+    href: "https://github.com/mohammedlrj/portfolio",
   },
   {
     name: "Simple Web CRUD Application",
