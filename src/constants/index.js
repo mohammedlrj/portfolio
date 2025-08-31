@@ -176,6 +176,53 @@ export const experiences = [
     ],
   },
   {
+    date: "Jun 2025 - Jul 2025",
+    title: "Coding Carpincho Project – AI Code Agents Evaluation - Outlier (Freelance)",
+    text: "Comprehensive evaluation project comparing AI code agents' performance in real-world development environments. Led systematic assessment of Claude & Grok AI agents within Cursor IDE, developing rigorous evaluation methodologies and creating definitive solutions.",
+    technologies: [
+      "Evaluated and compared Claude & Grok AI code agents in the Cursor environment.",
+      "Designed prompts to reveal model limitations within real-world code repositories.",
+      "Built evaluation rubrics (High-Level Intent, Low-Level Key Facts, Negative Rubrics) to formally measure model responses.",
+      "Produced golden patches (final solutions) by correcting and optimizing repository code.",
+      "Created structured analyses and feedback to improve AI reliability for coding workflows.",
+    ],
+  },
+  {
+    date: "May 2025 - Jun 2025",
+    title: "AndromedaUI Project – Reviewer (Prompt Evaluator) - Outlier (Freelance)",
+    text: "Quality assurance and evaluation role focused on assessing contributions from other team members. Applied strict standards for quality, clarity, and technical relevance to support continuous improvement of prompts and AI model training processes.",
+    technologies: [
+      "Assessed work from other contributors by comparing prompts, generated outputs, and overall quality.",
+      "Delivered detailed written feedback to support continuous improvement of prompts and AI model training.",
+      "Applied strict standards of clarity, quality, and technical relevance.",
+      "Evaluated proposed solutions for accuracy and implementation feasibility.",
+      "Contributed to AI model training improvement through systematic review processes.",
+    ],
+  },
+  {
+    date: "Apr 2025 - May 2025",
+    title: "AndromedaUI Project – Attempter (Prompt Engineer & Developer) - Outlier (Freelance)",
+    text: "AI-powered web development role focused on crafting complex technical prompts to interact with advanced language models. Analyzed model outputs to assess relevance, coherence, and accuracy while proposing improvements and rewriting prompts to enhance performance.",
+    technologies: [
+      "Crafted complex technical prompts to interact with advanced AI models (LLMs).",
+      "Analyzed model outputs to assess relevance, coherence, and accuracy.",
+      "Proposed improvements and rewrote prompts or returned code to enhance model performance.",
+      "Worked on technically oriented projects involving TypeScript, React, Next.js, and Tailwind CSS.",
+      "Built and optimized features using modern web development frameworks.",
+    ],
+  },
+  {
+    date: "Dec 2024 - Present",
+    title: "Web Developer (Freelance)",
+    text: "Independent web developer based in Oujda, Morocco, specializing in custom website creation for French clients. Expertise in end-to-end web project management, from initial concept to final deployment, including SEO optimization and performance compliance.",
+    technologies: [
+      "Designed and developed websites using WordPress and Elementor for French clients.",
+      "Managed the full development cycle: domain name acquisition, hosting setup, configuration, UI/UXdesign, SEO optimization, and Google indexing.",
+      "Handled communication and project management independently, maintaining direct contact with clients.",
+      "Ensured site performance, accessibility, and visibility on search engines.",
+    ],
+  },
+  {
     date: "Sept 2024 - Nov 2024",
     title: "Professional Internship at Seomaniak Oujda",
     text: "As a Full Stack Developer, I led the complete development of a platform designed to connect entrepreneurs with investors, facilitating project funding and collaboration. The platform, built with a .NET backend and Angular frontend, is tailored to provide flexibility and transparency for both parties.",

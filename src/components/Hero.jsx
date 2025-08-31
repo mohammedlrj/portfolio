@@ -34,13 +34,28 @@ const Hero = () => {
                         />
                     </p>
 
-                    <div className="flex items-center flex-col sm:flex-row mt-8">
-                        <button type="button"
-                                className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient hover:scale-[0.99] rounded-[10px] outline-none ${styles}`}>
-                            <a href="https://drive.google.com/file/d/1hpfIiUCv3gwEF9-8yD56FO9hGfXhg7uI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                                Download CV</a>
-                        </button>
+                    <div className="flex items-center flex-col sm:flex-row mt-8 gap-4">
+                        {/* French CV */}
+                        <a
+                            href="https://drive.google.com/file/d/1DnQ69U3X2A0RN_TqoSb0DTGpuBdqrkG_/view?usp=drive_link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient hover:scale-[0.99] rounded-[10px] outline-none ${styles}`}
+                        >
+                            Download Resume (FR)
+                        </a>
+
+                        {/* English CV */}
+                        <a
+                            href="https://drive.google.com/file/d/1J24cRHel48YB5mOZ3sG8QHbIbDktQwnB/view?usp=drive_link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient hover:scale-[0.99] rounded-[10px] outline-none ${styles}`}
+                        >
+                            Download Resume (EN)
+                        </a>
                     </div>
+
                 </div>
 
                 {/* image section */}
