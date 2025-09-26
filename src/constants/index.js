@@ -30,8 +30,12 @@ import {
   talend,
   ef,
   django,
+  wordpress,
+  elementor,
   sqlite,
-  php
+  php,
+  google,
+  yoast
 } from "../assets";
 import React from "react";
 
@@ -319,7 +323,7 @@ export const skills = [
   { icon: emailjs, tooltip: "EmailJS" },
   { icon: angular, tooltip: "Angular" },
   { icon: csharp, tooltip: "C#" },
-  { icon: dotnet, tooltip: "Dot Net" },
+  { icon: dotnet, tooltip: ".NET" },
   { icon: ef, tooltip: "Entity Framework" },
   { icon: python, tooltip: "Python" },
   { icon: django, tooltip: "Django" },
@@ -329,7 +333,11 @@ export const skills = [
   { icon: php, tooltip: "PHP" },
   { icon: mysql, tooltip: "MySQL" },
   { icon: sqlserver, tooltip: "SQL Server" },
-  { icon: sqlite, tooltip: "SQLite" }
+  { icon: sqlite, tooltip: "SQLite" },
+  { icon: wordpress, tooltip: "Wordpress" },
+  { icon: elementor, tooltip: "Elementor" },
+  { icon: google, tooltip: "Google Search Console" },
+  { icon: yoast, tooltip: "Yoast SEO" }
 ];
 
 export const tools = [
@@ -342,10 +350,46 @@ export const tools = [
   { icon: github, tooltip: "GitHub" },
   { icon: git, tooltip: "Git" },
   { icon: slack, tooltip: "Slack" },
-  { icon: trello, tooltip: "Trello" },
+  { icon: trello, tooltip: "Trello" }
 ];
 
 export const projects = [
+  {
+    name: "Sabatier Électricien d’Urgence",
+    duration: "1 month",
+    content:
+      "This project is a 24/7 emergency electrical services website for a certified team in Toulouse. Built with WordPress and Elementor, it highlights rapid response services, installation modernization, and professional electrical solutions for residential and commercial clients. The project involved close collaboration with the client to define services, content, and design, ensuring a high-quality user experience. Domain registration, hosting configuration, Yoast SEO optimization, and Google indexing were implemented to ensure strong online visibility. The site is responsive, accessible, and designed for fast, easy communication with clients in need of urgent electrical services",
+    img: "sabatier.png",
+    technologies: [23, 24, 25, 26],
+    href: "https://electricien-urgence-toulouse.fr/",
+  },
+  {
+    name: "Plombiers Toulouse",
+    duration: "1 month",
+    content:
+      "This website showcases professional plumbing and heating services in the Toulouse region. Using WordPress and Elementor, the platform provides clear information on installations, repairs, and emergency services. The project included defining project requirements with the client, creating service content, and designing a responsive, visually appealing layout. Full domain registration, hosting setup, SEO implementation via Yoast, and Google indexing were carried out to maximize search engine visibility. The final product is a functional, user-friendly site that enhances the company’s online presence.",
+    img: "plombiers.png",
+    technologies: [23, 24, 25, 26],
+    href: "https://plombierstoulouse.com/",
+  },
+  {
+    name: "Occiplomb",
+    duration: "1 month",
+    content:
+      "This project is a plumbing and heating services website designed for a Toulouse-based company with 15 years of experience. Developed using WordPress and Elementor, the site presents detailed services including installations, repairs, maintenance, unclogging, and emergency interventions. The project involved continuous collaboration with the client to refine content and design for optimal user experience. Domain acquisition, hosting configuration, SEO optimization with Yoast, and Google indexing were performed to ensure high visibility in search engines. The result is a fast, mobile-friendly platform that efficiently connects clients with the company’s services.",
+    img: "occiplomb.png",
+    technologies: [23, 24, 25, 26],
+    href: "https://occiplomb.fr/",
+  },
+  {
+    name: "Serrurier Chrono 31",
+    duration: "1 month",
+    content:
+      "This project involved refactoring an existing locksmith service website for a local Toulouse-based company. Built with WordPress and Elementor, the platform highlights services such as lock changes, installations, armored doors, and custom security solutions. The project included full collaboration with the client to redefine content, improve design, and enhance usability for maximum satisfaction. Additionally, domain management, hosting configuration, SEO optimization using Yoast, Google indexing, and search engine visibility were handled. The resulting website is fully responsive, user-friendly, and optimized for quick access to emergency contact options.",
+    img: "serrurier.png",
+    technologies: [23, 24, 25, 26],
+    href: "https://www.serrurierchrono31.fr/",
+  },
   {
     name: "SRMP - Système de Recommandation des Médecins Personnalisés",
     duration: "2 months",

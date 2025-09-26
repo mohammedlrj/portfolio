@@ -37,6 +37,10 @@ import talend from "./talend.png";
 import ef from "./ef.png";
 import sqlite from "./sqlite.png";
 import springboot from "./springboot.png";
+import wordpress from "./wordpress.png";
+import elementor from "./elementor.png";
+import google from "./google.png";
+import yoast from "./yoast.png";
 
 export {
   menu,
@@ -44,5 +48,5 @@ export {
 
   html, css , js , ts, tailwind , bootstrap, chartjs, ngx, react, angular, csharp, dotnet, python, django, java, jee, mysql , php , laravel,
   vscode, eclipse ,postman , github , git , slack, trello,intellij, docker, emailjs , postgresql, elasticsearch, visualstudio, sqlserver, talend,
-  ef, sqlite, springboot
+  ef, sqlite, springboot, wordpress, elementor, google, yoast
 };

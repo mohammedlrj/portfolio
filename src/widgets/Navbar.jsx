@@ -2,13 +2,29 @@ import { useState } from "react";
 
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
+  const handleLogoClick = () => {
+    setActive("Home");
+    document.getElementById("home")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar z-50">
+
+      <div className="flex items-center cursor-pointer"
+        onClick={handleLogoClick}
+      >
+        <img
+          src={logo}
+          alt="logo"
+          className="w-[50px] h-[50px] object-contain mr-4"
+        />
+      </div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
